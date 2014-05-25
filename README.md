@@ -8,7 +8,7 @@ This repo contains an R script "run_analysis.R" and corresponding code book for 
 * WALKING_DOWNSTAIRS
 * WALKING_UPSTAIRS
 
-561 features (motion parameters) provided in each record in the full dataset.  The summary dataset contains averages computed by run_analysis.R of 66 of these features.  Averages are calculated for all the data available for each combination of subject and activity state.  This results in a tabulation of 180 records, each containing 66 features, in the output file tidystats.csv.
+There are 561 features (motion parameters) provided in each record in the full dataset.  The summary dataset contains averages computed by run_analysis.R of 66 of these features.  Averages are calculated for all the data available for each combination of subject and activity state.  This results in a tabulation of 180 records, each containing 66 features, in the output file tidystats.csv.
 
 The run_analysis script can be run via the following command at the R console:
 source("run_analysis.R")
