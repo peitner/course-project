@@ -15,10 +15,15 @@ The processing result is an output file tidystats.csv summarizing some aspects o
 The files subject_test.txt and subject_train.txt contain the subject identifiers for 2947 test and 7352 training records respectively.  Total number of records for the test+training merged dataset is 10299.  The files y_test.txt and y_train.txt contain numerical activity identifiers 1 through 6 which are mapped to the 6 activity states as follows:
 
 6 -> LAYING
+
 4 -> SITTING
+
 5 -> STANDING
+
 1 -> WALKING
+
 3 -> WALKING_DOWNSTAIRS
+
 2 -> WALKING_UPSTAIRS
 
 The y_test activity file contains 2947 identifiers and the y_test training file contains 7352 indentifiers, adding up to the 2947+7352 = 10299 records in the merged dataset.
